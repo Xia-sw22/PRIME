@@ -3,9 +3,6 @@ This repository provides the code for **PRIME-PVTT**, a multimodal transformer-b
 - Survival analysis of hepatocellular carcinoma (HCC) patients
 - Classification tasks related to portal vein tumor thrombus (PVTT)
 
-The architecture follows the same ETS/ES dual-channel design as TRIM-uHCC (in `AURA-main`), but this folder is a clean,
-GitHub-ready version for PRIME-PVTT, with both survival and classification training scripts.
-
 ## Overview
 
 PRIME-PVTT is a transformer-based multimodal medical prediction model. It processes three modalities:
@@ -134,5 +131,6 @@ Outputs:
    - `train_survival.py`
    - `train_classification.py`
    - `README.md`
+
 
 
